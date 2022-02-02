@@ -1,0 +1,24 @@
+
+  .container_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 7px rgba(48, 48, 48, 0.753);
+    position: fixed;
+
+    .list_nav{
+      display: flex;
+    }
+
+    li{
+      font-size: 20px;
+      margin-right: 40px;
+      list-style: none;
+      text-shadow: 1px 1px 7px rgba(102, 102, 102, 0.822);
+    }
+    
+  }
