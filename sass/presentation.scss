@@ -45,5 +45,68 @@
            width: 300px;
            height: 200px;
        }
+    };
+
+};
+
+
+// Version mobile // 
+@media screen and (max-width: 562px) {
+    body{
+        color: red;
     }
+    .container_nous{
+        .titre_nous{
+            display: flex;
+            background-color: white;
+            box-shadow: 1px 1px 7px rgba(48, 48, 48, 0.753);
+        }
+    
+        .titre_presentation{
+            display: flex;
+            font-size: 20px;
+            padding-left: 20px;
+            background-color: white;
+            margin-bottom: 0px;
+            
+            h2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: nowrap;
+                width: 98%;
+                border-bottom: 1px solid #d2d2d2;
+                margin-bottom: 0px;
+            }
+        }
+    
+        .bloc_text{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 350px;
+            background-color: white;
+            padding-left: 20px;
+            
+            p{
+                width: 100%;
+                font-size: 16px;
+                margin-left: 1px;
+                margin-bottom: 0px;
+            }
+        }
+    
+        .logo{
+            display: flex;
+            
+           img{
+               object-fit: cover;
+               width: 254px;
+               height: 150px;
+           }
+        };
+    
+    };
 }
