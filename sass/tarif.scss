@@ -1,20 +1,105 @@
-.container_tarif{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 350px;
-    background-color: #fff;
+
+ #tarif{
+
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+     background-color: #fff;
+     width: 100%;
+     height: 500px;
+ 
+     .titre_presentation{
+        display: flex;
+        font-size: 20px;
+        padding-left: 20px;
+        background-color: white;
+        margin-bottom: 0px;
+        h2{
+            width: 98%;
+            border-bottom: 1px solid #d2d2d2;
+            margin-bottom: 0px;
+        }
+     }
+
+
+    .container_tarif{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        width: 100%;
+        height: 350px;
+        background-color: #fff;
+    }
     
    
 
     .tarif{
         display: flex;
-        width: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 300px;
         height: 200px;
         border: 1px solid black;
         background-color: #fff;
-        
+        border-radius: 10px;  
         
     }
+
+
+    .poids{
+        display: flex;
+        width: 100%;
+        height: 41px;
+        background-color: rgba(0, 255, 0, 0.521);
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloc_km{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border: 1px solid black;
+        height: 83px;
+        align-items: center;
+
+        li{
+            list-style: none;
+            margin-left: 5px;
+        }
+    }
+
+    .bloc_prix{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border: 1px solid black;
+        height: 72px;
+        align-items: center;
+        border-radius: 0px 0px 10px 10px;
+
+        li{
+            list-style: none;
+            
+            margin-left: 5px;
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .gras{
+            font-weight: bold;
+        }
+    }
 }
+ 
