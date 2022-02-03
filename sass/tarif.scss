@@ -1,0 +1,20 @@
+.container_tarif{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    
+   
+
+    .tarif{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: #fff;
+        
+        
+    }
+}

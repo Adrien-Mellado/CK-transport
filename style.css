@@ -123,6 +123,17 @@ html, body {
     background-image: url(./image/image1.png);
   }
 }
+.map {
+  width: 300px;
+  height: 200px;
+  margin-left: -40px;
+}
+.map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container_nous .titre_nous {
   display: flex;
   flex-direction: column;
@@ -215,6 +226,21 @@ html, body {
     width: 254px;
     height: 150px;
   }
+}
+.container_tarif {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: #fff;
+}
+.container_tarif .tarif {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
