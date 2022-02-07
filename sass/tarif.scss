@@ -99,7 +99,29 @@
 
         .gras{
             font-weight: bold;
-        }
-    }
-}
+        };
+    };
+};
  
+
+@media screen and (max-width: 562px) {
+    #tarif{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height:1354px;
+    flex-wrap: nowrap;
+
+    .container_tarif{
+        display: flex;
+        flex-direction: column;
+        height:1800px;
+    }
+       
+
+    }
+    
+    
+    
+}

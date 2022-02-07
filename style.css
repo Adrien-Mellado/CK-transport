@@ -177,10 +177,6 @@ html, body {
 }
 
 @media screen and (max-width: 562px) {
-  body {
-    color: red;
-  }
-
   .container_nous .titre_nous {
     display: flex;
     background-color: white;
@@ -196,7 +192,6 @@ html, body {
   .container_nous .titre_presentation h2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
     flex-wrap: nowrap;
     width: 98%;
     border-bottom: 1px solid #d2d2d2;
@@ -310,6 +305,22 @@ html, body {
 }
 #tarif .info .gras {
   font-weight: bold;
+}
+
+@media screen and (max-width: 562px) {
+  #tarif {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height: 1354px;
+    flex-wrap: nowrap;
+  }
+  #tarif .container_tarif {
+    display: flex;
+    flex-direction: column;
+    height: 1800px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
