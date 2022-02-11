@@ -316,7 +316,7 @@ html, body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 562px) {
+@media screen and (max-width: 620px) {
   #tarif {
     display: flex;
     flex-direction: column;
@@ -330,6 +330,27 @@ html, body {
     justify-content: space-evenly;
     flex-direction: column;
     height: 1800px;
+  }
+}
+@media screen and (max-width: 1218px) and (min-width: 622px) {
+  #tarif {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 806px;
+  }
+  #tarif .container_tarif {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    height: 418px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    align-items: center;
   }
 }
 .gras {
@@ -428,6 +449,22 @@ html, body {
     font-size: 40px;
     width: 100%;
   }
+}
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 90px;
+  background-color: #262626;
+}
+footer .bloc-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
