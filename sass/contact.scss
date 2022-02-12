@@ -1,8 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version,ie > 8
+*/
+
 .gras{
     font-weight: bold;
 }
 
 .titre_presentation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
         font-size: 20px;
         padding-left: 20px;
@@ -11,10 +20,17 @@
         
 
     h2{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+    
+            flex-wrap: nowrap;
         width: 98%;
         border-bottom: 1px solid #d2d2d2;
         margin-bottom: 0px;
@@ -28,9 +44,18 @@
 
 .container_contacte{
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     
     .bloc_text{
@@ -51,6 +76,115 @@
 }
 
 
+
+
+
+
+// Version mobile // 
+@media screen and (max-width: 562px) {
+#contact{
+        .titre_presentation {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+                font-size: 20px;
+                padding-left: 20px;
+                background-color: white;
+                margin-bottom: 0px;
+                
+
+            h2{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+            
+                -ms-flex-wrap: nowrap;
+            
+                    flex-wrap: nowrap;
+                width: 98%;
+                border-bottom: 1px solid #d2d2d2;
+                margin-bottom: 0px;
+            }
+        }
+
+        .container_contacte{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
+                -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack: space-evenly;
+                    -ms-flex-pack: space-evenly;
+                        justify-content: space-evenly;
+                height: 350px;
+                background-color: white;
+                
+
+                .bloc_text{
+                    text-align:initial;
+                font-size: 30px;
+                margin-left: 30px;
+                margin-bottom: 0px;
+                }
+            
+                h3{
+                    margin-top: 0px;
+                }
+        }
+
+        p{
+            width: 100%;
+            font-size: 16px;
+            margin-left: 1px;
+            margin-bottom: 0px;
+        }
+
+        .bloc_icone{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            width: 100%;
+
+            .icone_item{
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                -webkit-box-pack:center;
+                    -ms-flex-pack:center;
+                        justify-content:center;
+                font-size: 40px;
+                width: 100%;
+               
+            }
+        }
+    }
+}
 
 
 
