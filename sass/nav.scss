@@ -71,6 +71,16 @@ a.active{
   display: none;
 }
 
+
+
+  .lien_tel{
+    text-decoration: none;
+    color: rgb(255, 77, 77);
+  
+  }
+
+
+
 @media (max-width:991px) {
   header{
     padding: 0 20px ;
@@ -107,4 +117,8 @@ a.active{
   nav.active{
     left: 0;
   }
+
+  
 }
+
+
